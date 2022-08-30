@@ -49,8 +49,8 @@ spec:
       "-Xms": "2g"
       "-Xmx": "2g"
     listeners:
-      plain: {}
-      tls: {}
+      - plain: {}
+      - tls: {}
       # Exposing Kafka using OCP Routes
       external:
         type: route
